@@ -6,14 +6,14 @@ import net.imane.dao.IDao;
  * @author Imane Mekkaoui
  */
 
-public class IMetierImpl implements IMetier {
+public class MetierImpl implements IMetier {
     private IDao dao; //couplage faible
 
-    public IMetierImpl(IDao dao) {
+    public MetierImpl(IDao dao) {
         this.dao = dao;
     }
 
-    public IMetierImpl() {
+    public MetierImpl() {
     }
 
     @Override
