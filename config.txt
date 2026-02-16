@@ -1,0 +1,2 @@
+net.imane.dao.DaoImpl
+net.imane.metier.MetierImpl

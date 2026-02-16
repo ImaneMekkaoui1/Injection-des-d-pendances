@@ -1,4 +1,4 @@
-package net.imane.net.imane.ext;
+package net.imane.ext;
 
 import net.imane.dao.IDao;
 

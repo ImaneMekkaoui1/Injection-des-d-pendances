@@ -2,7 +2,7 @@ package net.imane.pres;
 
 import net.imane.dao.DaoImpl;
 import net.imane.metier.MetierImpl;
-import net.imane.net.imane.ext.DaoImplV2;
+import net.imane.ext.DaoImplV2;
 
 
 /**
