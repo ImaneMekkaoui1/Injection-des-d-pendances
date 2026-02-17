@@ -1,3 +1,7 @@
+- Nom : MEKKAOUI
+- Prénom : IMANE
+- Classe : M1 SDIA
+
 # Inversion de Contrôle (IoC) et Injection de Dépendances (DI)
 
 Bienvenue dans ce projet de TP portant sur les concepts fondamentaux de l’architecture Java EE : l’Inversion de Contrôle (IoC) et l’Injection de Dépendances (DI).
