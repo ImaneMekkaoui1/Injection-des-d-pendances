@@ -1,2 +1,2 @@
-net.imane.dao.DaoImpl
+net.imane.ext.DaoImplV2
 net.imane.metier.MetierImpl
