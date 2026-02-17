@@ -6,6 +6,7 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="d" class="net.imane.dao.DaoImpl"></bean>
     <bean id="metier" class="net.imane.metier.MetierImpl">
-        <property name="dao" ref="d"></property>
+        <constructor-arg ref="d"></constructor-arg>
+
     </bean>
 </beans>

@@ -3,6 +3,10 @@ package net.imane.dao;
 /**
  * @author Imane Mekkaoui
  */
+
+import org.springframework.stereotype.Component;
+
+@Component("d")
 public class DaoImpl implements IDao{
     @Override
     public double getData() {

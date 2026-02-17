@@ -1,20 +1,24 @@
 package net.imane.metier;
 
 import net.imane.dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
 /**
  * @author Imane Mekkaoui
  */
-
+@Component("metier")
 public class MetierImpl implements IMetier {
+
+
     private IDao dao; //couplage faible
 
-    public MetierImpl(IDao dao) {
+    public MetierImpl(@Qualifier("d2") IDao dao) {
         this.dao = dao;
     }
 
-    public MetierImpl() {
-    }
+
 
     @Override
     public double Calcul() {
