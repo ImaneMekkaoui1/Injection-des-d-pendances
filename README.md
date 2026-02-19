@@ -1,6 +1,3 @@
-- Nom : MEKKAOUI
-- Prénom : IMANE
-- Classe : M1 SDIA
 
 # Inversion de Contrôle (IoC) et Injection de Dépendances (DI)
 
